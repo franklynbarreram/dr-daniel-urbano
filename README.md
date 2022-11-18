@@ -1,13 +1,13 @@
-## Docker usage
+## Server usage
 
 Develop server:
 
 ```bash
-docker-compose up --build --force-recreate
+npm run dev
 ```
 
 Production server:
 
 ```bash
-docker-compose -f docker-compose.production.yml up --build --force-recreate
+npm run build
 ```
